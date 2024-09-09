@@ -1,0 +1,99 @@
+*{
+    margin:0;
+}
+:root{
+    --verte: #9ac8a3;
+    --gris: #4d4d4d;
+    --rouge:#a83f3f;
+    --bleu:#4848b3;
+    --blanc:#fff4e0;
+    --rose:#ffbf9b;
+    --vert:#49a349;
+    
+}
+
+body{
+    background-color: var(--verte);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:10px;
+
+   
+}
+
+.header{
+    background-color:var(--gris); 
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding-block: 30px;
+    padding-inline: 20px;
+    color: white;
+    
+    }
+
+
+    .myItems  { 
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:12px;
+        padding-inline: 0;
+        padding-block: 20px;
+     }
+
+ .myItems li{
+    list-style-type: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+    background-color: var(--blanc);
+ }
+  button{
+padding-inline: 15px;/* espace haut et  bas */
+padding-block: 5px;/* espace gauche et droite */
+border-radius: 8px;
+color: white;
+ }
+
+ .myItems .edit{
+    background-color: var(--bleu);
+ }
+ .myItems .delete{
+    background-color: var(--rouge);
+ }
+ 
+ .inputDiv{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    gap:20px;
+    padding-inline: 10px;
+    padding-block: 20px;
+    background-color: var(--rose);
+    border-radius: 12px;
+ 
+ }
+
+ .inputDiv input{
+    width: 60%;
+    height: 40px;
+    border-radius: 12px;
+
+ }
+
+ .inputDiv button{
+    background-color: var(--vert);
+ }
